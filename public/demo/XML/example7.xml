@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DebitNote xmlns="urn:oasis:names:specification:ubl:schema:xsd:DebitNote-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <ext:UBLExtensions>
+  <ext:UBLExtension>
+   <ext:ExtensionContent xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"/>
+  </ext:UBLExtension>
+ </ext:UBLExtensions>
+ <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+ <cbc:CustomizationID>2.0</cbc:CustomizationID>
+ <cbc:ID>FC02-10</cbc:ID>
+ <cbc:IssueDate>2.1</cbc:IssueDate>
+ <cbc:Note languageLocaleID="3000">05010020170628000785</cbc:Note>
+ <cbc:DocumentCurrencyCode>2.1</cbc:DocumentCurrencyCode>
+ <cac:DiscrepancyResponse>
+  <cbc:ReferenceID>04</cbc:ReferenceID>
+  <cbc:ResponseCode>04</cbc:ResponseCode>
+  <cbc:Description><![CDATA[K&G Laboratorios]]></cbc:Description>
+ </cac:DiscrepancyResponse>
+ <cac:BillingReference>
+  <cac::DebitNoteDocumentReference>
+   <cbc:ID>F002-6</cbc:ID>
+   <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+  </cac::DebitNoteDocumentReference>
+ </cac:BillingReference>
+ <cac:DespatchDocumentReference>
+  <cbc:ID>031-002020</cbc:ID>
+  <cbc:DocumentTypeCode>09</cbc:DocumentTypeCode>
+ </cac:DespatchDocumentReference>
+ <cac:AdditionalDocumentReference>
+  <cbc:ID>&gt;10000120094</cbc:ID>
+  <cbc:DocumentTypeCode>05</cbc:DocumentTypeCode>
+ </cac:AdditionalDocumentReference>
+ <cac:Signature>
+  <cbc:ID>04</cbc:ID>
+  <cac:SignatoryParty>
+   <cac:PartyIdentification>
+    <cbc:ID>04</cbc:ID>
+   </cac:PartyIdentification>
+   <cac:PartyName>
+    <cbc:Name>04</cbc:Name>
+   </cac:PartyName>
+  </cac:SignatoryParty>
+  <cac:DigitalSignatureAttachment>
+   <cac:ExternalReference>
+    <cbc:URI>04</cbc:URI>
+   </cac:ExternalReference>
+  </cac:DigitalSignatureAttachment>
+ </cac:Signature>
+ <cac:AccountingSupplierParty>
+  <cac:Party>
+   <cac:PartyTaxScheme>
+    <cbc:RegistrationName><![CDATA[]]></cbc:RegistrationName>
+    <CompanyID schemeID="6" schemeName="SUNAT:Identificador de Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">12345678909</CompanyID>
+    <cac:RegistrationAddress>
+     <cbc:AddressTypeCode>0001</cbc:AddressTypeCode>
+    </cac:RegistrationAddress>
+    <cac:TaxScheme>
+     <cbc:ID>-</cbc:ID>
+    </cac:TaxScheme>
+   </cac:PartyTaxScheme>
+  </cac:Party>
+ </cac:AccountingSupplierParty>
+ <cac:AccountingCustomerParty>
+  <cac:Party>
+   <cac:PartyTaxScheme>
+    <cbc:RegistrationName><![CDATA[]]></cbc:RegistrationName>
+    <CompanyID schemeID="6" schemeName="SUNAT:Identificador de Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">12345678909</CompanyID>
+    <cac:TaxScheme>
+     <cbc:ID>-</cbc:ID>
+    </cac:TaxScheme>
+   </cac:PartyTaxScheme>
+  </cac:Party>
+ </cac:AccountingCustomerParty>
+ <cac:TaxTotal>
+  <cbc:TaxAmount currencyID="PEN">15.25</cbc:TaxAmount>
+  <cac:TaxSubtotal>
+   <cbc:TaxableAmount currencyID="PEN">15.25</cbc:TaxableAmount>
+   <cbc:TaxAmount currencyID="PEN">15.25</cbc:TaxAmount>
+   <cac:TaxCategory>
+    <cbc:ID>S</cbc:ID>
+    <cac:TaxScheme>
+     <cbc:ID>1000</cbc:ID>
+     <cbc:Name>IGV</cbc:Name>
+     <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+    </cac:TaxScheme>
+   </cac:TaxCategory>
+  </cac:TaxSubtotal>
+ </cac:TaxTotal>
+ <cac:LegalMonetaryTotal>
+  <cbc:AllowanceTotalAmount currencyID="PEN">2.00</cbc:AllowanceTotalAmount>
+  <cbc:PrepaidAmount currencyID="PEN">2.00</cbc:PrepaidAmount>
+  <cbc:PayableAmount currencyID="PEN">2.00</cbc:PayableAmount>
+ </cac:LegalMonetaryTotal>
+ <cac:DebitNoteLine>
+  <cbc:ID>04</cbc:ID>
+  <cbc:DebitedQuantity unitCode="CS" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">20</cbc:DebitedQuantity>
+  <cbc:LineExtensionAmount currencyID="PEN">2.00</cbc:LineExtensionAmount>
+  <cac:PricingReference>
+   <cac:AlternativeConditionPrice>
+    <cbc:PriceAmount currencyID="PEN">2.00</cbc:PriceAmount>
+    <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+   </cac:AlternativeConditionPrice>
+  </cac:PricingReference>
+  <cac:TaxTotal>
+   <cbc:TaxAmount currencyID="PEN">2.00</cbc:TaxAmount>
+   <cac:TaxSubtotal>
+    <cbc:TaxableAmount currencyID="PEN">2.00</cbc:TaxableAmount>
+    <cbc:TaxAmount currencyID="PEN">2.00</cbc:TaxAmount>
+    <cac:TaxCategory>
+     <cbc:ID>S</cbc:ID>
+     <cbc:TaxExemptionReasonCode>04</cbc:TaxExemptionReasonCode>
+     <cbc:TierRange>04</cbc:TierRange>
+     <cac:TaxScheme>
+      <cbc:ID>1000</cbc:ID>
+      <cbc:Name>IGV</cbc:Name>
+      <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+     </cac:TaxScheme>
+    </cac:TaxCategory>
+   </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:Item>
+   <cbc:Description><![CDATA[]]></cbc:Description>
+   <cbc:SellersItemIdentification>
+    <cbc:ID>04</cbc:ID>
+   </cbc:SellersItemIdentification>
+   <cac:CommodityClassification>
+    <cbc:ItemClassificationCode listID="UNSPSC" listAgencyName="GS1 US" listName="Item Classification">10</cbc:ItemClassificationCode>
+   </cac:CommodityClassification>
+  </cac:Item>
+  <cac:Price>
+   <cbc:PriceAmount currencyID="PEN">2.00</cbc:PriceAmount>
+  </cac:Price>
+ </cac:DebitNoteLine>
+</DebitNote>

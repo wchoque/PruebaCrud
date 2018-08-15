@@ -23,7 +23,7 @@
 	<div class="middle-box text-center loginscreen animated fadeInDown">
 		<div>
 			<div>
-				<h1 class="logo-name">HiFi</h1>
+				<h1 class="logo-name">DEMO</h1>
 			</div>
 			<h3>Bienvenido</h3>
 			<form class="m-t" role="form"  method="POST" action="{{ route('login') }}">

@@ -127,7 +127,10 @@
 					<li class="nav-header">
 						<div class="dropdown profile-element">
 							<span>
-								<img alt="image" class="img-circle" src="{{ url('/img/logo_hifi_ref.jpg') }}">
+<!--								<img alt="image" class="img-circle" src=<"{{ url('/img/logo_hifi.jpg') }}">-->
+								<img alt="image" class="img-circle" src="{{ url('/img/Lock_color.png') }}">
+								
+								
 							</span>
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<span class="clear">

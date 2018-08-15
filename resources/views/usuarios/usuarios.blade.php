@@ -124,7 +124,7 @@
 						</div>
 						<div>
 							<div class="ibox-content no-padding border-left-right">
-								<img :src="image" alt="image" class="img-responsive"> {{-- Aqui iria la foto del cliente --}}
+								<img :src="C." alt="image" class="img-responsive">
 							</div>
 							<div class="ibox-content profile-content">
 								<h4>

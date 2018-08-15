@@ -159,9 +159,7 @@
 							<li>
 								<a href="{{ url('usuarios') }}">Usuarios</a>
 							</li>
-							<li>
-								<a href="{{ url('roles') }}">Roles</a>
-							</li>
+							
 						</ul>
 					</li>
 				

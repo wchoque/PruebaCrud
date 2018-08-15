@@ -12,24 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
 
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Otro','ruc' => '','razon_social' => 'Otro',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Banco de Comercio','ruc' => '','razon_social' => 'Banco de Comerciol',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Banco de Crédito del Perú','ruc' => '','razon_social' => 'Banco de Crédito del Perú',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Banco Interamericano de Finanzas (BanBif)','ruc' => '','razon_social' => 'Banco Interamericano de Finanzas (BanBif)',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Banco Financiero','ruc' => '','razon_social' => 'Banco Financiero',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'BBVA Continental','ruc' => '','razon_social' => 'BBVA Continental',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Citibank Perú','ruc' => '','razon_social' => 'Citibank Perú',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Interbank','ruc' => '','razon_social' => 'Interbank',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'MiBanco','ruc' => '','razon_social' => 'MiBanco',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Scotiabank Perú','ruc' => '','razon_social' => 'Scotiabank Perú',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Banco GNB Perú','ruc' => '','razon_social' => 'Banco GNB Perú',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Banco Falabella','ruc' => '','razon_social' => 'Banco Falabella',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Banco Ripley','ruc' => '','razon_social' => 'Banco Ripley',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Banco Santander Perú','ruc' => '','razon_social' => 'Banco Santander Perú',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Banco Azteca','ruc' => '','razon_social' => 'Banco Azteca',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'Banco Cencosud','ruc' => '','razon_social' => 'Banco Cencosud',]);
-        DB::table('entidades_bancarias')->insert([ 'descripcion' => 'ICBC PERU BANK','ruc' => '','razon_social' => 'ICBC PERU BANK',]);
-
+      
     
         DB::table('tipos_correntistas')->insert([ 'descripcion' => 'CLIENTE',]);
         DB::table('tipos_correntistas')->insert([ 'descripcion' => 'PROVEEDOR',]);

@@ -25,7 +25,7 @@
 			<div>
 				<h1 class="logo-name">HiFi</h1>
 			</div>
-			<h3>Bienvenido a HiFi</h3>
+			<h3>Bienvenido</h3>
 			<form class="m-t" role="form"  method="POST" action="{{ route('login') }}">
                 {{ csrf_field() }}
                 <div class="form-group {{ $errors->has('email') ? ' has-error' : '' }}">
@@ -52,7 +52,7 @@
 				<a class="btn btn-sm btn-white btn-block" href="register.html">Crear una cuenta</a>
 			</form>
 			<p class="m-t">
-				<small>Desarrollo &copy; 2017</small>
+				<small>DEMO &copy;</small>
 			</p>
 		</div>
 	</div>
